@@ -1,0 +1,124 @@
+.App {
+  height: 100%;
+  /* text-align: center; */
+  background-color: #222831;
+}
+
+/***************************
+      HEADER
+    ***************************/
+
+#header {
+  height: 10%;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  background-color: #222831;
+  color: #DDDDDD;
+  font-size: 1.9em;
+  font-weight: normal;
+}
+
+/***************************
+      CONTAINER
+    ***************************/
+
+#container {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #30475E;
+  color: #DDDDDD;
+}
+
+.calculator {
+  border: 2px solid #DDDDDD;
+  padding: 5px;
+  background: #222831;
+  width: 320px;
+  position: relative;
+}
+
+.formulaScreen {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  min-height: 20px;
+  font-size: 13px;
+  background-color: #000000;
+  color: #F05454;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.outputScreen {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 23px;
+  background-color: #000000;
+  color: #DDDDDD;
+  text-align: right;
+  line-height: 35px;
+}
+
+button {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 20px;
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: #222831;
+  outline: 1px solid #222831;
+  border: none;
+  background: #CCCCCC;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #FFFFFF;
+  outline: 0.05em solid #222831;
+  z-index: 3;
+}
+
+.jumbo {
+  width: 160px;
+}
+
+.author {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.author a {
+  text-decoration: none;
+  color: #F05454;
+  line-height: 26px;
+}
+
+/***************************
+      FOOTER
+    ***************************/
+
+#footer {
+  height: 10%;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  background-color: #F05454;
+  color: #222831;
+}
+
+#footer a {
+  color: #DDDDDD;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  font-weight: bolder;
+}
+
+#credits {
+  font-size: smaller;
+}
